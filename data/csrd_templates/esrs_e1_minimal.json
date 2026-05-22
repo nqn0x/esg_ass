@@ -1,0 +1,105 @@
+{
+  "template_id": "esrs_e1_minimal",
+  "template_name": "ESRS E1 — Climate Change (Minimal)",
+  "standard": "ESRS E1",
+  "version": "1.0",
+  "description": "12 key datapoints from ESRS E1 covering GHG emissions, energy, and climate targets.",
+  "datapoints": [
+    {
+      "esrs_id": "E1-6_Scope1",
+      "label": "Scope 1 GHG Emissions",
+      "description": "Total gross Scope 1 GHG emissions in metric tons CO2 equivalent",
+      "unit": "tCO2e",
+      "search_query": "Scope 1 gross emissions 55200 natural gas diesel propane metric tons CO2e",
+      "category": "GHG Emissions"
+    },
+    {
+      "esrs_id": "E1-6_Scope2_market",
+      "label": "Scope 2 GHG Emissions (market-based)",
+      "description": "Scope 2 market-based GHG emissions in tCO2e",
+      "unit": "tCO2e",
+      "search_query": "Scope 2 market-based GHG emissions purchased electricity",
+      "category": "GHG Emissions"
+    },
+    {
+      "esrs_id": "E1-6_Scope3_total",
+      "label": "Scope 3 GHG Emissions (total)",
+      "description": "Total Scope 3 GHG emissions across all categories",
+      "unit": "tCO2e",
+      "search_query": "Scope 3 emissions product manufacturing use end of life metric tons",
+      "category": "GHG Emissions"
+    },
+    {
+      "esrs_id": "E1-5_Energy_total",
+      "label": "Total Energy Consumption",
+      "description": "Total energy consumption from all sources",
+      "unit": "MWh",
+      "search_query": "total energy consumption electricity heat fuel MWh GWh",
+      "category": "Energy"
+    },
+    {
+      "esrs_id": "E1-5_Energy_renewable",
+      "label": "Renewable Energy Percentage",
+      "description": "Share of energy from renewable sources",
+      "unit": "%",
+      "search_query": "100 percent renewable electricity energy facilities clean",
+      "category": "Energy"
+    },
+    {
+      "esrs_id": "E1-4_NetZero_target",
+      "label": "Net Zero Target Year",
+      "description": "Year by which the company commits to reach net zero emissions",
+      "unit": "year",
+      "search_query": "carbon neutral 2030 net zero Apple goal target",
+      "category": "Targets"
+    },
+    {
+      "esrs_id": "E1-4_NearTerm_target",
+      "label": "Near-term Emission Reduction Target",
+      "description": "Percentage reduction target for Scope 1+2 by 2030",
+      "unit": "%",
+      "search_query": "2030 emission reduction target Scope 1 Scope 2 near-term",
+      "category": "Targets"
+    },
+    {
+      "esrs_id": "E1-4_SBTi",
+      "label": "SBTi Validation",
+      "description": "Whether targets are validated by the Science Based Targets initiative",
+      "unit": "yes/no",
+      "search_query": "Science Based Targets SBTi validated approved aligned",
+      "category": "Targets"
+    },
+    {
+      "esrs_id": "E1-1_TransitionPlan",
+      "label": "Climate Transition Plan",
+      "description": "Whether a climate transition plan has been adopted",
+      "unit": "yes/no",
+      "search_query": "climate transition plan adopted decarbonization roadmap",
+      "category": "Strategy"
+    },
+    {
+      "esrs_id": "E1-9_ClimateRisk",
+      "label": "Climate Physical Risk Exposure",
+      "description": "Whether material physical climate risks have been identified",
+      "unit": "yes/no",
+      "search_query": "physical climate risk identified material acute chronic TCFD",
+      "category": "Risk"
+    },
+    {
+      "esrs_id": "E1-7_CarbonCredits",
+      "label": "Carbon Credits / Offsets Used",
+      "description": "Volume of carbon credits purchased or used for neutralisation",
+      "unit": "tCO2e",
+      "search_query": "carbon credits offsets purchased neutralisation removal certificates",
+      "category": "GHG Removals"
+    },
+    {
+      "esrs_id": "E1-6_Intensity",
+      "label": "GHG Emission Intensity",
+      "description": "GHG emissions per unit of revenue or output",
+      "unit": "tCO2e/unit",
+      "search_query": "GHG emission intensity per revenue per unit carbon intensity ratio",
+      "category": "GHG Emissions"
+    }
+  ]
+}
